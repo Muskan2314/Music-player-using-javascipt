@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="music-player">
+        <div class="track-info">
+            <h2 id="track-title">Track Title</h2>
+            <p id="track-artist">Artist Name</p>
+        </div> 
+        <img id="current-image" src="spotify-logo-png-spotify-music-app-icon-1024.jpg"   height="300px"   alt="Main Image">
+        <audio id="audio" src="O Mahi O Mahi_320(PagalWorld.com.sb).mp3"></audio>
+        
+        <div class="controls">
+            <button id="prev-btn">⏮️</button>
+            <button id="play-btn">▶️</button>
+            <button id="next-btn">⏭️</button>
+        </div>
+        <div class="progress-container">
+            <input type="range" id="progress-bar" value="0">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
