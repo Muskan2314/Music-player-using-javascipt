@@ -8,10 +8,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const trackArtist = document.getElementById("track-artist");
 
     const tracks = [
-        { title: "O Mahi O Mahi", artist: "Artist 1", src: "O Mahi O Mahi_320(PagalWorld.com.sb).mp3" },
-        { title: "Heeriye", artist: "Artist 2", src: "_Heeriye_320(PagalWorld.com.sb).mp3" },
-        { title: "Suniyan Suniyan", artist: "Artist 3", src: "Suniyan Suniyan Raatan_320(PagalWorld.com.sb).mp3" }
+        { title: "O Mahi (From'Dunki')", artist: "Arjit Singh", src: "O Mahi O Mahi_320(PagalWorld.com.sb).mp3" },
+        { title: "Heeriye(Feat.ArjitSingh)", artist: "Arjit Singh", src: "_Heeriye_320(PagalWorld.com.sb).mp3" },
+        { title: "Suniyan Suniyan", artist: "Juss,MixSingh", src: "Suniyan Suniyan Raatan_320(PagalWorld.com.sb).mp3" }
     ];
+
 
     let currentTrackIndex = 0;
 
